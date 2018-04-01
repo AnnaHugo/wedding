@@ -71,8 +71,8 @@ mysql> source wedding.sql;
 ```javascript
 > vi config/connections.js
 sequelizeServer: {
-  user: 'xxx',
-  password: 'xxx',
+  user: 'root',
+  password: '018192zhu',
   database: 'wedding',
   options: {
   dialect: 'mysql',
@@ -128,7 +128,7 @@ PM.bgm = new PM.BGM($('#bgm-audio'), {
 ```javascript
 var map = new AMap.Map('pnl-map',{
   zoom: 17,
-  center: [115.977634, 29.709759]
+  center: [23.743498,114.71203]
 });
 var marker = new AMap.Marker({
   position: map.getCenter()

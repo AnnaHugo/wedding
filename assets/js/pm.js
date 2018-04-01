@@ -370,7 +370,7 @@
         }).done(function() {
           var map = new AMap.Map('pnl-map',{
             zoom: 17,
-            center: [115.977634, 29.709759]
+            center: [114.71203,23.743498]
           });
           var marker = new AMap.Marker({
             position: map.getCenter()
@@ -380,7 +380,7 @@
           // 设置label标签
           marker.setLabel({
             offset: new AMap.Pixel(-75, -30),
-            content: "PM Infinity婚礼于10月5日晚"
+            content: "朱海周与何安娜-2018年05月01日"
           });
         }).fail(function() {
 

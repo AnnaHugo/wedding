@@ -53,6 +53,7 @@ process.chdir(__dirname);
     }
   }
 
+  //testing
 
   // Start server
   sails.lift(rc('sails'));
